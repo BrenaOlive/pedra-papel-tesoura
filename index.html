@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedra, Papel e Tesoura</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header>
+    <h1>Pedra, Papel e Tesoura</h1>
+  </header>
+  <div class='pontuacao-usuario'>
+    <div id='user-label' class='competidores'>Você</div>
+    <div id='pc-label' class='competidores'>Computador</div>
+    <span id='score-usuario'>0</span> : <span id='score-pc'>0</span>
+  </div>
+  
+  <div class='resultado jumping-text span'>
+    <p>Comece o jogo clicando em uma das opções:</p>
+  </div>
+
+  <div class='escolhas'>
+    <div class='escolha' id='pe'>
+      <img src="./img/pedra.png" alt="Pedra" title='Pedra'>
+    </div>
+    <div class='escolha' id='pa'>
+      <img src="./img/papel.png" alt="Papel" title='Papel'>
+    </div>
+    <div class='escolha' id='t'>
+      <img src="./img/tesoura.png" alt="Tesoura" title='Tesoura'>
+    </div>
+  </div>
+  <span id='messagem'>Regras do jogo</span>
+  <div id="popup" class="popup">
+  <div class="popup-conteudo">
+    <span id="fecharBtn" class="fechar">&times;</span>
+    <h1>Regras do Jogo</h1>
+    <p>
+      Pedra vence Tesoura<br>
+      Tesoura vence Papel<br>
+      Papel vence Pedra
+    </p>
+  </div>
+</div>
+<footer>
+  <span class='footer'>Desenvolvido por <a href='https://www.linkedin.com/in/brena-alves/'>Brena Oliveira ❤</a></span>
+</footer>
+  <script src='./app.js'></script>
+</body>
+</html>
