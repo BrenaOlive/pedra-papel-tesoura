@@ -41,7 +41,7 @@ function ganhou(escolhaUsuario, pcEscolha){
   scoreUsuario++;
   scoreUsuario_span.innerText = scoreUsuario;
   scoreComputador_span.innerText = scoreComputador;
-  resultado.style.color = "green";
+  resultado.style.color = "#26d965";
   resultado.innerText = converterTexto(escolhaUsuario) + " ganha de " + converterTexto(pcEscolha) + ". Você ganhou!"
 }
 
@@ -49,14 +49,14 @@ function perdeu(escolhaUsuario, pcEscolha){
   scoreComputador++;
   scoreComputador_span.innerText = scoreComputador;
   scoreUsuario_span.innerText = scoreUsuario;
-  resultado.style.color = "red";
+  resultado.style.color = "#d92c26";
   resultado.innerText = converterTexto(escolhaUsuario) + " perde de " + converterTexto(pcEscolha) + ". Você perdeu!"
 }
 
 function empate(escolhaUsuario, pcEscolha){
   scoreComputador_span.innerText = scoreComputador;
   scoreUsuario_span.innerText = scoreUsuario;
-  resultado.style.color = "yellow";
+  resultado.style.color = "#e3aa31";
   resultado.innerText = converterTexto(escolhaUsuario) + " é igual a " + converterTexto(pcEscolha) + ". Empate!"
 }
 

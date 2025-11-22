@@ -30,7 +30,8 @@ header > h1 {
 .pontuacao-usuario {
   padding: 20px;
   margin: 70px auto;
-  width: 200px;
+  width: 100%;
+  max-width: 200px;
   background: #39011e;
   color: #fff ;
   font-size: 3rem;
@@ -91,13 +92,13 @@ header > h1 {
 #user-label {
   position: absolute;
   top: 30px;
-  left: -75px;
+  left: -55px;
 }
 
 #pc-label {
   position: absolute;
   top: 30px;
-  right: -135px;
+  right: -115px;
 }
 
 #messagem {
@@ -162,7 +163,7 @@ header > h1 {
 }
 
 .fechar:hover {
-  color:red;
+  color:#d92c26;
 }
 
 .footer {
@@ -268,7 +269,18 @@ header > h1 {
   font-size: 2.8rem;
   color: #39011e;
 }
+
+.resultado > p {
+  font-size: 2rem;
+  margin: -20px 0;
+}
+
+.pontuacao-usuario {
+  margin: 0px 120px;
+  width: 100%;
+  max-width: 150px;
+}
   .escolha > img {
-    max-width: 150px;
+    max-width: 120px;
   }
 }
