@@ -1,22 +1,26 @@
-﻿# Jogo de Pedra, Papel e Tesoura 
+#✊🖐️✌️ Jokenpô — Pedra, Papel e Tesoura
 
-O Jokenpô tem origem na China antiga, por volta do século III a.C., onde era conhecido como “Shoushiling”. O jogo depois se espalhou para o Japão, ganhou o nome de “Janken” e passou a usar os gestos de pedra, papel e tesoura como conhecemos hoje.
-No século XX, o jogo se popularizou pelo mundo inteiro, tornando-se uma forma simples e rápida de resolver decisões, disputas ou empates. Hoje é conhecido globalmente como rock-paper-scissors.
+O Jokenpô é um jogo clássico com origem na China antiga, por volta do século III a.C., onde era chamado de Shoushiling. Mais tarde, chegou ao Japão como Janken, adotando os gestos de pedra, papel e tesoura que conhecemos hoje.
+No século XX, o jogo se espalhou pelo mundo e se tornou uma maneira simples e rápida de resolver disputas ou empates. Hoje é conhecido globalmente como rock-paper-scissors.
 
-O jogo tem três opções:
+🎮 Como funciona o jogo?
 
-Pedra
+Você pode escolher entre três opções:
 
-Papel
+✊ Pedra
 
-Tesoura
+🖐️ Papel
 
-E cada uma vence e perde de uma forma:
+✌️ Tesoura
 
-Pedra vence Tesoura (pedra quebra tesoura)
+🏆 Regras
 
-Tesoura vence Papel (tesoura corta papel)
+As escolhas se enfrentam da seguinte forma:
 
-Papel vence Pedra (papel embrulha pedra)
+✊ Pedra vence Tesoura — pedra quebra tesoura
 
-Se os dois jogadores escolherem a mesma opção, o resultado é empate.
+✌️ Tesoura vence Papel — tesoura corta papel
+
+🖐️ Papel vence Pedra — papel embrulha pedra
+
+🔁 Se ambos escolherem a mesma opção, o resultado é empate.
